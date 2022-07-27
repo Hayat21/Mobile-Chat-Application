@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting"
+    android:background="#fff"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="236dp"
+        android:layout_height="178dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_account" />
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="280dp"
+    android:src="@drawable/ic_person"
+    />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/ic_report"
+        />
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:text="Nom"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/settings_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nom"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="14dp"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/settings_image_btn"
+        android:layout_width="48dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/settings_name"
+        android:layout_alignLeft="@+id/settings_name"
+        android:layout_alignEnd="@+id/settings_name"
+        android:layout_alignRight="@+id/settings_name"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="-145dp"
+        android:layout_marginEnd="-125dp"
+        android:layout_marginRight="-125dp"
+        android:background="@android:color/white"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:src="@drawable/ic_cam" />
+
+    <ImageButton
+        android:id="@+id/settings_name_btn"
+        android:layout_width="48dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/settings_name"
+        android:layout_alignLeft="@+id/settings_name"
+        android:layout_alignEnd="@+id/settings_name"
+        android:layout_alignRight="@+id/settings_name"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="-164dp"
+        android:layout_marginRight="-164dp"
+        android:background="@android:color/white"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:src="@drawable/ic_mode" />
+
+    <TextView
+        android:id="@+id/Statut"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_name"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="33dp"
+        android:text="Actu"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Statut"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/default_status"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+    />
+
+    <ImageButton
+        android:id="@+id/settings_status_btn"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/Statut"
+        android:layout_alignLeft="@+id/settings_name"
+        android:layout_alignEnd="@+id/settings_name"
+        android:layout_alignRight="@+id/settings_name"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="-163dp"
+        android:layout_marginRight="-149dp"
+        android:background="@android:color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/ic_mode"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "264784795481",
+    "firebase_url": "https://messagerie-feb9c.firebaseio.com",
+    "project_id": "messagerie-feb9c",
+    "storage_bucket": "messagerie-feb9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264784795481:android:e6cca38c4858d873809e48",
+        "android_client_info": {
+          "package_name": "com.example.messagerie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264784795481-1bmj8rakp8ok8jqui7rhdsjv0f8uae4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.messagerie",
+            "certificate_hash": "db74b1295c856aaf5e211a1e26c99665b6ad0157"
+          }
+        },
+        {
+          "client_id": "264784795481-0r4a10nl0tq0qe9ovfvha6tnlel123jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLkxRfGTqBeOEdFXuPPp0AkEaStVxxOLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264784795481-0r4a10nl0tq0qe9ovfvha6tnlel123jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

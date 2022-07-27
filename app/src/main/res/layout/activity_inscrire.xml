@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+tools:context=".inscrire">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Bienvenue !"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#086AFD"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="380dp"
+        android:background="@drawable/border_global"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:text="Inscription"
+                android:textColor="#fff"
+                android:textSize="28dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/editTextF_Name"
+                android:layout_width="250dp"
+                android:layout_height="53dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="89dp"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:hint="Entrer votre nom"
+                android:inputType="textPersonName"
+                android:background="@drawable/border_edittext"
+                android:drawableLeft="@drawable/person_ic"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="276dp"
+                android:layout_height="54dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/border_edittext"
+                android:drawableLeft="@drawable/mail_user"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:hint="Entrer votre mail"
+                android:layout_below="@id/editTextF_Name"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="276dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_edittext"
+                android:drawableLeft="@drawable/key_user"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:hint="mot de pass"
+                android:inputType="textPassword"
+                android:drawablePadding="-19dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+            <Button
+                android:id="@+id/Submit"                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextPassword"
+                android:layout_marginLeft="78dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:text="enregistrer"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+    </LinearLayout>
+    </RelativeLayout>

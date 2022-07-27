@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Start">
+
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="340dp"
+        android:background="@drawable/border_global"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/imglogo"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="HeyApp"
+            android:textColor="#fff"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imglogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back"
+            android:text="se connecter"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/login"
+            android:background="@drawable/back"
+            android:text="s'inscrire"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

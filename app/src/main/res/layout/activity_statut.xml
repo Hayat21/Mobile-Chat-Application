@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Statut"
+    android:background="#fff">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/status_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_appBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        tools:ignore="UnknownId">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Votre Actu..." />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/status_save_btn"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/status_input"
+        android:layout_alignEnd="@+id/status_input"
+        android:layout_alignRight="@+id/status_input"
+        android:layout_marginTop="20dp"
+        android:text="  Sauvegarder"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/status_annuler_btn"
+        android:layout_width="92dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/status_input"
+        android:layout_alignStart="@+id/status_input"
+        android:layout_alignLeft="@+id/status_input"
+        android:layout_alignRight="@+id/status_input"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="233dp"
+        android:background="#fff"
+        android:text="Annuler"
+        android:textColor="@android:color/holo_blue_dark" />
+</RelativeLayout>

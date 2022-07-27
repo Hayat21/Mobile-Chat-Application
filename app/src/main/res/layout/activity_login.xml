@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".login">
+<TextView
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="Bienvenue !"
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:textColor="#086AFD"
+    android:textSize="30dp"
+    />
+
+    <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="370dp"
+            android:background="@drawable/border_global"
+           android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+
+            >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="Connexion"
+        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:textSize="28dp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="276dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_edittext"
+        android:drawableLeft="@drawable/mail_user"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Entrer votre mail"
+        android:layout_marginTop="100dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+         />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="276dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_edittext"
+        android:drawableLeft="@drawable/key_user"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="mot de pass"
+        android:paddingLeft="10dp"
+android:drawablePadding="-19dp"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:text="Connexion"
+        android:textColor="@color/colorPrimary" />
+</RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Username"
+    >
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_appBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        tools:ignore="UnknownId">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Votre nom..." />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/username_save_btn"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/username_input"
+        android:layout_alignEnd="@+id/username_input"
+        android:layout_alignRight="@+id/username_input"
+        android:layout_marginTop="20dp"
+        android:text="Sauvegarder"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/username_annuler_btn"
+        android:layout_width="92dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/username_input"
+        android:layout_alignStart="@+id/username_input"
+        android:layout_alignLeft="@+id/status_input"
+        android:layout_alignRight="@+id/username_input"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="168dp"
+        android:text="Annuler"
+        android:textColor="@android:color/holo_blue_dark" />
+</RelativeLayout>
